@@ -1,0 +1,13 @@
+{
+  "name": "ts-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:w": "tsc -w"
+  },
+  "devPendencies": {
+    "typescript": "^3.7.2"
+  },
+  "license": "MIT"
+}
