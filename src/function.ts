@@ -22,7 +22,7 @@ namespace FunctionTest {
     function assigned(topAndBottom: number, leftAndRight: number): Direction
     function assigned(top: number, right: number, bottom: number, left: number): Direction
 
-    function assigned (a: number, b?: number, c?: number, d?: number):Direction {
+    function assigned (a: number, b?: number, c?: number, d?: number) {
         if (b === undefined && c === undefined && d === undefined) {
           b = c = d = a
         } else if (c === undefined && d === undefined) {
